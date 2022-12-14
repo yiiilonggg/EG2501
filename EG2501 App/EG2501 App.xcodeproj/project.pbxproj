@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1EF74A290512CC00CA56D6 /* BikeDocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF749290512CC00CA56D6 /* BikeDocks.swift */; };
+		EE1EF74C290513DB00CA56D6 /* InitialiseBikeDocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF74B290513DB00CA56D6 /* InitialiseBikeDocks.swift */; };
+		EE1EF74E2905A14900CA56D6 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF74D2905A14900CA56D6 /* Categories.swift */; };
+		EE1EF7502905A15F00CA56D6 /* InitialiseCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF74F2905A15F00CA56D6 /* InitialiseCategories.swift */; };
+		EE1EF75229069A4200CA56D6 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF75129069A4200CA56D6 /* Locations.swift */; };
+		EE1EF75429069A9500CA56D6 /* InitialiseLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF75329069A9500CA56D6 /* InitialiseLocations.swift */; };
+		EE1EF7562906A04800CA56D6 /* WayFinderMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF7552906A04800CA56D6 /* WayFinderMap.swift */; };
+		EE1EF7582906C4AC00CA56D6 /* BusStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF7572906C4AC00CA56D6 /* BusStops.swift */; };
+		EE1EF75A29078F4E00CA56D6 /* ProfileTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF75929078F4E00CA56D6 /* ProfileTracker.swift */; };
+		EE1EF75C2907A01900CA56D6 /* CyclingTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF75B2907A01900CA56D6 /* CyclingTrips.swift */; };
+		EE1EF75E2907A6FA00CA56D6 /* ViewPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF75D2907A6FA00CA56D6 /* ViewPass.swift */; };
+		EE1EF7602907AC5B00CA56D6 /* OldPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF75F2907AC5B00CA56D6 /* OldPassView.swift */; };
+		EE1EF7622907B94700CA56D6 /* RegisteredPassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF7612907B94700CA56D6 /* RegisteredPassView.swift */; };
+		EE1EF764290829BB00CA56D6 /* PurchasingTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF763290829BB00CA56D6 /* PurchasingTrip.swift */; };
+		EE1EF7662908FA5A00CA56D6 /* InitialiseBusStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1EF7652908FA5A00CA56D6 /* InitialiseBusStops.swift */; };
+		EE6D38DA2903A18700C2CF39 /* EG2501_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D38D92903A18700C2CF39 /* EG2501_AppApp.swift */; };
+		EE6D38DE2903A18800C2CF39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6D38DD2903A18800C2CF39 /* Assets.xcassets */; };
+		EE6D38E12903A18800C2CF39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6D38E02903A18800C2CF39 /* Preview Assets.xcassets */; };
+		EE6D38E32903A18800C2CF39 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D38E22903A18800C2CF39 /* Persistence.swift */; };
+		EE6D38E62903A18800C2CF39 /* EG2501_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE6D38E42903A18800C2CF39 /* EG2501_App.xcdatamodeld */; };
+		EE6D38F12903A18800C2CF39 /* EG2501_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D38F02903A18800C2CF39 /* EG2501_AppTests.swift */; };
+		EE6D38FB2903A18800C2CF39 /* EG2501_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D38FA2903A18800C2CF39 /* EG2501_AppUITests.swift */; };
+		EE6D38FD2903A18800C2CF39 /* EG2501_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D38FC2903A18800C2CF39 /* EG2501_AppUITestsLaunchTests.swift */; };
+		EE6D390A2903A22F00C2CF39 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39092903A22F00C2CF39 /* Home.swift */; };
+		EE6D390C2903ABF700C2CF39 /* WayFinderMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D390B2903ABF700C2CF39 /* WayFinderMain.swift */; };
+		EE6D390E2903ADDB00C2CF39 /* BikeSharingMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D390D2903ADDB00C2CF39 /* BikeSharingMain.swift */; };
+		EE6D39102903ADE600C2CF39 /* ShuttleBusMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D390F2903ADE600C2CF39 /* ShuttleBusMain.swift */; };
+		EE6D39122903ADF100C2CF39 /* ProfileMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39112903ADF100C2CF39 /* ProfileMain.swift */; };
+		EE6D39142903ADFE00C2CF39 /* RewardsMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39132903ADFE00C2CF39 /* RewardsMain.swift */; };
+		EE6D39162903B2BB00C2CF39 /* WayFinderResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39152903B2BB00C2CF39 /* WayFinderResult.swift */; };
+		EE6D39182903C6BB00C2CF39 /* BikeFoundPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39172903C6BB00C2CF39 /* BikeFoundPage.swift */; };
+		EE6D391A2903CA3E00C2CF39 /* BikeQRCodePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39192903CA3E00C2CF39 /* BikeQRCodePage.swift */; };
+		EE6D391C2903D11700C2CF39 /* BikeSuccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D391B2903D11700C2CF39 /* BikeSuccessPage.swift */; };
+		EE6D391E2903D21D00C2CF39 /* BikeEndPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D391D2903D21D00C2CF39 /* BikeEndPage.swift */; };
+		EE6D39202903D5E000C2CF39 /* BikeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D391F2903D5E000C2CF39 /* BikeMap.swift */; };
+		EE6D39222903DFCC00C2CF39 /* PurchasePasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39212903DFCC00C2CF39 /* PurchasePasses.swift */; };
+		EE6D39242903DFD500C2CF39 /* PurchaseTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39232903DFD500C2CF39 /* PurchaseTrips.swift */; };
+		EE6D39262903ECDB00C2CF39 /* RewardsDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39252903ECDB00C2CF39 /* RewardsDetails.swift */; };
+		EE6D392D2904DEAB00C2CF39 /* Passes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D392C2904DEAB00C2CF39 /* Passes.swift */; };
+		EE6D392F2904DF1D00C2CF39 /* InitialisePasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D392E2904DF1D00C2CF39 /* InitialisePasses.swift */; };
+		EE6D39312904E7A000C2CF39 /* Trips.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39302904E7A000C2CF39 /* Trips.swift */; };
+		EE6D39332904E87E00C2CF39 /* InitialiseTrips.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39322904E87E00C2CF39 /* InitialiseTrips.swift */; };
+		EE6D39352904F16800C2CF39 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39342904F16800C2CF39 /* Reward.swift */; };
+		EE6D39372904F33100C2CF39 /* InitialiseRewards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D39362904F33100C2CF39 /* InitialiseRewards.swift */; };
+		EE6D393A2904FD0A00C2CF39 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = EE6D39392904FD0A00C2CF39 /* CodeScanner */; };
+		EEA87E41291D586E00D66410 /* HomeHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87E40291D586E00D66410 /* HomeHelpView.swift */; };
+		EEA87E43291D5E4200D66410 /* BikeSharingMapHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87E42291D5E4200D66410 /* BikeSharingMapHelpView.swift */; };
+		EEA87E45291D604600D66410 /* BikeFoundHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87E44291D604600D66410 /* BikeFoundHelpView.swift */; };
+		EEA87E47291D61EB00D66410 /* PurchaseTripsHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87E46291D61EB00D66410 /* PurchaseTripsHelpView.swift */; };
+		EEA87E49291D643200D66410 /* ViewPassHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87E48291D643200D66410 /* ViewPassHelpView.swift */; };
+		EEA87E4B291D656800D66410 /* WayFinderResultHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87E4A291D656800D66410 /* WayFinderResultHelpView.swift */; };
+		EEA87E4D291D66D900D66410 /* ProfileMainHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA87E4C291D66D900D66410 /* ProfileMainHelpView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6D38ED2903A18800C2CF39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6D38CE2903A18700C2CF39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6D38D52903A18700C2CF39;
+			remoteInfo = "EG2501 App";
+		};
+		EE6D38F72903A18800C2CF39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6D38CE2903A18700C2CF39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6D38D52903A18700C2CF39;
+			remoteInfo = "EG2501 App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1EF749290512CC00CA56D6 /* BikeDocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeDocks.swift; sourceTree = "<group>"; };
+		EE1EF74B290513DB00CA56D6 /* InitialiseBikeDocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialiseBikeDocks.swift; sourceTree = "<group>"; };
+		EE1EF74D2905A14900CA56D6 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		EE1EF74F2905A15F00CA56D6 /* InitialiseCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialiseCategories.swift; sourceTree = "<group>"; };
+		EE1EF75129069A4200CA56D6 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		EE1EF75329069A9500CA56D6 /* InitialiseLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialiseLocations.swift; sourceTree = "<group>"; };
+		EE1EF7552906A04800CA56D6 /* WayFinderMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFinderMap.swift; sourceTree = "<group>"; };
+		EE1EF7572906C4AC00CA56D6 /* BusStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStops.swift; sourceTree = "<group>"; };
+		EE1EF75929078F4E00CA56D6 /* ProfileTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTracker.swift; sourceTree = "<group>"; };
+		EE1EF75B2907A01900CA56D6 /* CyclingTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclingTrips.swift; sourceTree = "<group>"; };
+		EE1EF75D2907A6FA00CA56D6 /* ViewPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPass.swift; sourceTree = "<group>"; };
+		EE1EF75F2907AC5B00CA56D6 /* OldPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldPassView.swift; sourceTree = "<group>"; };
+		EE1EF7612907B94700CA56D6 /* RegisteredPassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredPassView.swift; sourceTree = "<group>"; };
+		EE1EF763290829BB00CA56D6 /* PurchasingTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasingTrip.swift; sourceTree = "<group>"; };
+		EE1EF7652908FA5A00CA56D6 /* InitialiseBusStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialiseBusStops.swift; sourceTree = "<group>"; };
+		EE6D38D62903A18700C2CF39 /* EG2501 App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EG2501 App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6D38D92903A18700C2CF39 /* EG2501_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EG2501_AppApp.swift; sourceTree = "<group>"; };
+		EE6D38DD2903A18800C2CF39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE6D38E02903A18800C2CF39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE6D38E22903A18800C2CF39 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		EE6D38E52903A18800C2CF39 /* EG2501_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EG2501_App.xcdatamodel; sourceTree = "<group>"; };
+		EE6D38E72903A18800C2CF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE6D38EC2903A18800C2CF39 /* EG2501 AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EG2501 AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6D38F02903A18800C2CF39 /* EG2501_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EG2501_AppTests.swift; sourceTree = "<group>"; };
+		EE6D38F62903A18800C2CF39 /* EG2501 AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EG2501 AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6D38FA2903A18800C2CF39 /* EG2501_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EG2501_AppUITests.swift; sourceTree = "<group>"; };
+		EE6D38FC2903A18800C2CF39 /* EG2501_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EG2501_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EE6D39092903A22F00C2CF39 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		EE6D390B2903ABF700C2CF39 /* WayFinderMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFinderMain.swift; sourceTree = "<group>"; };
+		EE6D390D2903ADDB00C2CF39 /* BikeSharingMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeSharingMain.swift; sourceTree = "<group>"; };
+		EE6D390F2903ADE600C2CF39 /* ShuttleBusMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuttleBusMain.swift; sourceTree = "<group>"; };
+		EE6D39112903ADF100C2CF39 /* ProfileMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMain.swift; sourceTree = "<group>"; };
+		EE6D39132903ADFE00C2CF39 /* RewardsMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsMain.swift; sourceTree = "<group>"; };
+		EE6D39152903B2BB00C2CF39 /* WayFinderResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFinderResult.swift; sourceTree = "<group>"; };
+		EE6D39172903C6BB00C2CF39 /* BikeFoundPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeFoundPage.swift; sourceTree = "<group>"; };
+		EE6D39192903CA3E00C2CF39 /* BikeQRCodePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeQRCodePage.swift; sourceTree = "<group>"; };
+		EE6D391B2903D11700C2CF39 /* BikeSuccessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeSuccessPage.swift; sourceTree = "<group>"; };
+		EE6D391D2903D21D00C2CF39 /* BikeEndPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeEndPage.swift; sourceTree = "<group>"; };
+		EE6D391F2903D5E000C2CF39 /* BikeMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeMap.swift; sourceTree = "<group>"; };
+		EE6D39212903DFCC00C2CF39 /* PurchasePasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasePasses.swift; sourceTree = "<group>"; };
+		EE6D39232903DFD500C2CF39 /* PurchaseTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTrips.swift; sourceTree = "<group>"; };
+		EE6D39252903ECDB00C2CF39 /* RewardsDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsDetails.swift; sourceTree = "<group>"; };
+		EE6D392C2904DEAB00C2CF39 /* Passes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passes.swift; sourceTree = "<group>"; };
+		EE6D392E2904DF1D00C2CF39 /* InitialisePasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialisePasses.swift; sourceTree = "<group>"; };
+		EE6D39302904E7A000C2CF39 /* Trips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trips.swift; sourceTree = "<group>"; };
+		EE6D39322904E87E00C2CF39 /* InitialiseTrips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialiseTrips.swift; sourceTree = "<group>"; };
+		EE6D39342904F16800C2CF39 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		EE6D39362904F33100C2CF39 /* InitialiseRewards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialiseRewards.swift; sourceTree = "<group>"; };
+		EEA87E40291D586E00D66410 /* HomeHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHelpView.swift; sourceTree = "<group>"; };
+		EEA87E42291D5E4200D66410 /* BikeSharingMapHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeSharingMapHelpView.swift; sourceTree = "<group>"; };
+		EEA87E44291D604600D66410 /* BikeFoundHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeFoundHelpView.swift; sourceTree = "<group>"; };
+		EEA87E46291D61EB00D66410 /* PurchaseTripsHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTripsHelpView.swift; sourceTree = "<group>"; };
+		EEA87E48291D643200D66410 /* ViewPassHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPassHelpView.swift; sourceTree = "<group>"; };
+		EEA87E4A291D656800D66410 /* WayFinderResultHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayFinderResultHelpView.swift; sourceTree = "<group>"; };
+		EEA87E4C291D66D900D66410 /* ProfileMainHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMainHelpView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE6D38D32903A18700C2CF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6D393A2904FD0A00C2CF39 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D38E92903A18800C2CF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D38F32903A18800C2CF39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE6D38CD2903A18700C2CF39 = {
+			isa = PBXGroup;
+			children = (
+				EE6D38D82903A18700C2CF39 /* EG2501 App */,
+				EE6D38F92903A18800C2CF39 /* EG2501 AppUITests */,
+				EE6D38D72903A18700C2CF39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE6D38D72903A18700C2CF39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D38D62903A18700C2CF39 /* EG2501 App.app */,
+				EE6D38EC2903A18800C2CF39 /* EG2501 AppTests.xctest */,
+				EE6D38F62903A18800C2CF39 /* EG2501 AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE6D38D82903A18700C2CF39 /* EG2501 App */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D38D92903A18700C2CF39 /* EG2501_AppApp.swift */,
+				EE6D38DD2903A18800C2CF39 /* Assets.xcassets */,
+				EE6D38E22903A18800C2CF39 /* Persistence.swift */,
+				EE6D38E72903A18800C2CF39 /* Info.plist */,
+				EE6D38E42903A18800C2CF39 /* EG2501_App.xcdatamodeld */,
+				EE6D38DF2903A18800C2CF39 /* Preview Content */,
+				EE6D39092903A22F00C2CF39 /* Home.swift */,
+				EE6D39272904DE1300C2CF39 /* BikeSharing */,
+				EE6D39292904DE4C00C2CF39 /* ShuttleBus */,
+				EE6D39282904DE4100C2CF39 /* WayFinder */,
+				EE6D392A2904DE5D00C2CF39 /* Rewards */,
+				EE6D39112903ADF100C2CF39 /* ProfileMain.swift */,
+				EEA87E3F291D584500D66410 /* Help VIews */,
+				EE6D392B2904DE9600C2CF39 /* Data */,
+				EE6D38EF2903A18800C2CF39 /* EG2501 AppTests */,
+			);
+			path = "EG2501 App";
+			sourceTree = "<group>";
+		};
+		EE6D38DF2903A18800C2CF39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D38E02903A18800C2CF39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE6D38EF2903A18800C2CF39 /* EG2501 AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D38F02903A18800C2CF39 /* EG2501_AppTests.swift */,
+			);
+			path = "EG2501 AppTests";
+			sourceTree = "<group>";
+		};
+		EE6D38F92903A18800C2CF39 /* EG2501 AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D38FA2903A18800C2CF39 /* EG2501_AppUITests.swift */,
+				EE6D38FC2903A18800C2CF39 /* EG2501_AppUITestsLaunchTests.swift */,
+			);
+			path = "EG2501 AppUITests";
+			sourceTree = "<group>";
+		};
+		EE6D39272904DE1300C2CF39 /* BikeSharing */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D390D2903ADDB00C2CF39 /* BikeSharingMain.swift */,
+				EE6D391F2903D5E000C2CF39 /* BikeMap.swift */,
+				EE6D39172903C6BB00C2CF39 /* BikeFoundPage.swift */,
+				EE6D39192903CA3E00C2CF39 /* BikeQRCodePage.swift */,
+				EE6D391B2903D11700C2CF39 /* BikeSuccessPage.swift */,
+				EE6D391D2903D21D00C2CF39 /* BikeEndPage.swift */,
+			);
+			path = BikeSharing;
+			sourceTree = "<group>";
+		};
+		EE6D39282904DE4100C2CF39 /* WayFinder */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D39152903B2BB00C2CF39 /* WayFinderResult.swift */,
+				EE6D390B2903ABF700C2CF39 /* WayFinderMain.swift */,
+				EE1EF7552906A04800CA56D6 /* WayFinderMap.swift */,
+			);
+			path = WayFinder;
+			sourceTree = "<group>";
+		};
+		EE6D39292904DE4C00C2CF39 /* ShuttleBus */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D390F2903ADE600C2CF39 /* ShuttleBusMain.swift */,
+				EE6D39212903DFCC00C2CF39 /* PurchasePasses.swift */,
+				EE6D39232903DFD500C2CF39 /* PurchaseTrips.swift */,
+				EE1EF75D2907A6FA00CA56D6 /* ViewPass.swift */,
+				EE1EF75F2907AC5B00CA56D6 /* OldPassView.swift */,
+				EE1EF7612907B94700CA56D6 /* RegisteredPassView.swift */,
+				EE1EF763290829BB00CA56D6 /* PurchasingTrip.swift */,
+			);
+			path = ShuttleBus;
+			sourceTree = "<group>";
+		};
+		EE6D392A2904DE5D00C2CF39 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D39252903ECDB00C2CF39 /* RewardsDetails.swift */,
+				EE6D39132903ADFE00C2CF39 /* RewardsMain.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		EE6D392B2904DE9600C2CF39 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D392C2904DEAB00C2CF39 /* Passes.swift */,
+				EE6D392E2904DF1D00C2CF39 /* InitialisePasses.swift */,
+				EE6D39302904E7A000C2CF39 /* Trips.swift */,
+				EE6D39322904E87E00C2CF39 /* InitialiseTrips.swift */,
+				EE6D39342904F16800C2CF39 /* Reward.swift */,
+				EE6D39362904F33100C2CF39 /* InitialiseRewards.swift */,
+				EE1EF749290512CC00CA56D6 /* BikeDocks.swift */,
+				EE1EF74B290513DB00CA56D6 /* InitialiseBikeDocks.swift */,
+				EE1EF74D2905A14900CA56D6 /* Categories.swift */,
+				EE1EF74F2905A15F00CA56D6 /* InitialiseCategories.swift */,
+				EE1EF75129069A4200CA56D6 /* Locations.swift */,
+				EE1EF75329069A9500CA56D6 /* InitialiseLocations.swift */,
+				EE1EF7572906C4AC00CA56D6 /* BusStops.swift */,
+				EE1EF7652908FA5A00CA56D6 /* InitialiseBusStops.swift */,
+				EE1EF75929078F4E00CA56D6 /* ProfileTracker.swift */,
+				EE1EF75B2907A01900CA56D6 /* CyclingTrips.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EEA87E3F291D584500D66410 /* Help VIews */ = {
+			isa = PBXGroup;
+			children = (
+				EEA87E40291D586E00D66410 /* HomeHelpView.swift */,
+				EEA87E42291D5E4200D66410 /* BikeSharingMapHelpView.swift */,
+				EEA87E44291D604600D66410 /* BikeFoundHelpView.swift */,
+				EEA87E46291D61EB00D66410 /* PurchaseTripsHelpView.swift */,
+				EEA87E48291D643200D66410 /* ViewPassHelpView.swift */,
+				EEA87E4A291D656800D66410 /* WayFinderResultHelpView.swift */,
+				EEA87E4C291D66D900D66410 /* ProfileMainHelpView.swift */,
+			);
+			path = "Help VIews";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE6D38D52903A18700C2CF39 /* EG2501 App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6D39002903A18800C2CF39 /* Build configuration list for PBXNativeTarget "EG2501 App" */;
+			buildPhases = (
+				EE6D38D22903A18700C2CF39 /* Sources */,
+				EE6D38D32903A18700C2CF39 /* Frameworks */,
+				EE6D38D42903A18700C2CF39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EG2501 App";
+			packageProductDependencies = (
+				EE6D39392904FD0A00C2CF39 /* CodeScanner */,
+			);
+			productName = "EG2501 App";
+			productReference = EE6D38D62903A18700C2CF39 /* EG2501 App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6D38EB2903A18800C2CF39 /* EG2501 AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6D39032903A18800C2CF39 /* Build configuration list for PBXNativeTarget "EG2501 AppTests" */;
+			buildPhases = (
+				EE6D38E82903A18800C2CF39 /* Sources */,
+				EE6D38E92903A18800C2CF39 /* Frameworks */,
+				EE6D38EA2903A18800C2CF39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6D38EE2903A18800C2CF39 /* PBXTargetDependency */,
+			);
+			name = "EG2501 AppTests";
+			productName = "EG2501 AppTests";
+			productReference = EE6D38EC2903A18800C2CF39 /* EG2501 AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6D38F52903A18800C2CF39 /* EG2501 AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6D39062903A18800C2CF39 /* Build configuration list for PBXNativeTarget "EG2501 AppUITests" */;
+			buildPhases = (
+				EE6D38F22903A18800C2CF39 /* Sources */,
+				EE6D38F32903A18800C2CF39 /* Frameworks */,
+				EE6D38F42903A18800C2CF39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6D38F82903A18800C2CF39 /* PBXTargetDependency */,
+			);
+			name = "EG2501 AppUITests";
+			productName = "EG2501 AppUITests";
+			productReference = EE6D38F62903A18800C2CF39 /* EG2501 AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE6D38CE2903A18700C2CF39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					EE6D38D52903A18700C2CF39 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					EE6D38EB2903A18800C2CF39 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EE6D38D52903A18700C2CF39;
+					};
+					EE6D38F52903A18800C2CF39 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = EE6D38D52903A18700C2CF39;
+					};
+				};
+			};
+			buildConfigurationList = EE6D38D12903A18700C2CF39 /* Build configuration list for PBXProject "EG2501 App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE6D38CD2903A18700C2CF39;
+			packageReferences = (
+				EE6D39382904FD0A00C2CF39 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = EE6D38D72903A18700C2CF39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6D38D52903A18700C2CF39 /* EG2501 App */,
+				EE6D38EB2903A18800C2CF39 /* EG2501 AppTests */,
+				EE6D38F52903A18800C2CF39 /* EG2501 AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE6D38D42903A18700C2CF39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6D38E12903A18800C2CF39 /* Preview Assets.xcassets in Resources */,
+				EE6D38DE2903A18800C2CF39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D38EA2903A18800C2CF39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D38F42903A18800C2CF39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE6D38D22903A18700C2CF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6D38E32903A18800C2CF39 /* Persistence.swift in Sources */,
+				EE6D39262903ECDB00C2CF39 /* RewardsDetails.swift in Sources */,
+				EE1EF74C290513DB00CA56D6 /* InitialiseBikeDocks.swift in Sources */,
+				EEA87E49291D643200D66410 /* ViewPassHelpView.swift in Sources */,
+				EE6D39202903D5E000C2CF39 /* BikeMap.swift in Sources */,
+				EE1EF7562906A04800CA56D6 /* WayFinderMap.swift in Sources */,
+				EE6D392D2904DEAB00C2CF39 /* Passes.swift in Sources */,
+				EE1EF75429069A9500CA56D6 /* InitialiseLocations.swift in Sources */,
+				EE1EF74E2905A14900CA56D6 /* Categories.swift in Sources */,
+				EE6D39222903DFCC00C2CF39 /* PurchasePasses.swift in Sources */,
+				EEA87E4D291D66D900D66410 /* ProfileMainHelpView.swift in Sources */,
+				EEA87E43291D5E4200D66410 /* BikeSharingMapHelpView.swift in Sources */,
+				EE1EF7602907AC5B00CA56D6 /* OldPassView.swift in Sources */,
+				EE6D391C2903D11700C2CF39 /* BikeSuccessPage.swift in Sources */,
+				EE6D390E2903ADDB00C2CF39 /* BikeSharingMain.swift in Sources */,
+				EE6D390C2903ABF700C2CF39 /* WayFinderMain.swift in Sources */,
+				EE1EF7582906C4AC00CA56D6 /* BusStops.swift in Sources */,
+				EE6D39122903ADF100C2CF39 /* ProfileMain.swift in Sources */,
+				EE6D390A2903A22F00C2CF39 /* Home.swift in Sources */,
+				EE6D39352904F16800C2CF39 /* Reward.swift in Sources */,
+				EE6D39242903DFD500C2CF39 /* PurchaseTrips.swift in Sources */,
+				EEA87E41291D586E00D66410 /* HomeHelpView.swift in Sources */,
+				EE6D392F2904DF1D00C2CF39 /* InitialisePasses.swift in Sources */,
+				EE1EF75229069A4200CA56D6 /* Locations.swift in Sources */,
+				EE1EF764290829BB00CA56D6 /* PurchasingTrip.swift in Sources */,
+				EE6D39372904F33100C2CF39 /* InitialiseRewards.swift in Sources */,
+				EE1EF7622907B94700CA56D6 /* RegisteredPassView.swift in Sources */,
+				EE1EF74A290512CC00CA56D6 /* BikeDocks.swift in Sources */,
+				EE6D39182903C6BB00C2CF39 /* BikeFoundPage.swift in Sources */,
+				EE1EF75C2907A01900CA56D6 /* CyclingTrips.swift in Sources */,
+				EE1EF7502905A15F00CA56D6 /* InitialiseCategories.swift in Sources */,
+				EE1EF75A29078F4E00CA56D6 /* ProfileTracker.swift in Sources */,
+				EE6D39332904E87E00C2CF39 /* InitialiseTrips.swift in Sources */,
+				EE6D38DA2903A18700C2CF39 /* EG2501_AppApp.swift in Sources */,
+				EE6D38E62903A18800C2CF39 /* EG2501_App.xcdatamodeld in Sources */,
+				EEA87E45291D604600D66410 /* BikeFoundHelpView.swift in Sources */,
+				EE6D39102903ADE600C2CF39 /* ShuttleBusMain.swift in Sources */,
+				EEA87E4B291D656800D66410 /* WayFinderResultHelpView.swift in Sources */,
+				EE6D39142903ADFE00C2CF39 /* RewardsMain.swift in Sources */,
+				EE1EF7662908FA5A00CA56D6 /* InitialiseBusStops.swift in Sources */,
+				EEA87E47291D61EB00D66410 /* PurchaseTripsHelpView.swift in Sources */,
+				EE6D391A2903CA3E00C2CF39 /* BikeQRCodePage.swift in Sources */,
+				EE6D39162903B2BB00C2CF39 /* WayFinderResult.swift in Sources */,
+				EE1EF75E2907A6FA00CA56D6 /* ViewPass.swift in Sources */,
+				EE6D391E2903D21D00C2CF39 /* BikeEndPage.swift in Sources */,
+				EE6D39312904E7A000C2CF39 /* Trips.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D38E82903A18800C2CF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6D38F12903A18800C2CF39 /* EG2501_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D38F22903A18800C2CF39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6D38FD2903A18800C2CF39 /* EG2501_AppUITestsLaunchTests.swift in Sources */,
+				EE6D38FB2903A18800C2CF39 /* EG2501_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6D38EE2903A18800C2CF39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6D38D52903A18700C2CF39 /* EG2501 App */;
+			targetProxy = EE6D38ED2903A18800C2CF39 /* PBXContainerItemProxy */;
+		};
+		EE6D38F82903A18800C2CF39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6D38D52903A18700C2CF39 /* EG2501 App */;
+			targetProxy = EE6D38F72903A18800C2CF39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE6D38FE2903A18800C2CF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE6D38FF2903A18800C2CF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE6D39012903A18800C2CF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EG2501 App/Preview Content\"";
+				DEVELOPMENT_TEAM = YX376F7ZWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera access to scan QR code";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location accuracy";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location accuracy";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jacechenyl.EG2501-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE6D39022903A18800C2CF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EG2501 App/Preview Content\"";
+				DEVELOPMENT_TEAM = YX376F7ZWB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera access to scan QR code";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow location accuracy";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow location accuracy";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jacechenyl.EG2501-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE6D39042903A18800C2CF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX376F7ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jacechenyl.EG2501-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EG2501 App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EG2501 App";
+			};
+			name = Debug;
+		};
+		EE6D39052903A18800C2CF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX376F7ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jacechenyl.EG2501-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EG2501 App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EG2501 App";
+			};
+			name = Release;
+		};
+		EE6D39072903A18800C2CF39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX376F7ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jacechenyl.EG2501-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EG2501 App";
+			};
+			name = Debug;
+		};
+		EE6D39082903A18800C2CF39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YX376F7ZWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jacechenyl.EG2501-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EG2501 App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE6D38D12903A18700C2CF39 /* Build configuration list for PBXProject "EG2501 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6D38FE2903A18800C2CF39 /* Debug */,
+				EE6D38FF2903A18800C2CF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6D39002903A18800C2CF39 /* Build configuration list for PBXNativeTarget "EG2501 App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6D39012903A18800C2CF39 /* Debug */,
+				EE6D39022903A18800C2CF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6D39032903A18800C2CF39 /* Build configuration list for PBXNativeTarget "EG2501 AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6D39042903A18800C2CF39 /* Debug */,
+				EE6D39052903A18800C2CF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6D39062903A18800C2CF39 /* Build configuration list for PBXNativeTarget "EG2501 AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6D39072903A18800C2CF39 /* Debug */,
+				EE6D39082903A18800C2CF39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE6D39382904FD0A00C2CF39 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE6D39392904FD0A00C2CF39 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE6D39382904FD0A00C2CF39 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		EE6D38E42903A18800C2CF39 /* EG2501_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE6D38E52903A18800C2CF39 /* EG2501_App.xcdatamodel */,
+			);
+			currentVersion = EE6D38E52903A18800C2CF39 /* EG2501_App.xcdatamodel */;
+			path = EG2501_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE6D38CE2903A18700C2CF39 /* Project object */;
+}
