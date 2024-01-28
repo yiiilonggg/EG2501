@@ -3,7 +3,6 @@
 library(ggplot2)
 library(dplyr)
 library(ggpubr)
-setwd("/Users/yilong/Desktop/Semester 3/EG2501/Studio 3")
 
 # train data
 august_train_origin_to_dest <- read.csv("origin_destination_train_202208.csv", sep = ",", header = TRUE)
